@@ -1,0 +1,63 @@
+body {
+  background-color: #001f3f;
+  color: #DDDDDD;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+header {
+  color: #AAAAAA;
+  border-bottom: 9px solid #444242;
+}
+h1, h3 {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-size: 3.5rem;
+}
+
+
+/* bottom layout */
+.winner-wrapper, .score-container, .display, .wrapper-btns {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* header bottom */
+.winner-display {
+  font-weight: 600;
+  color: rgb(255, 123, 0);
+  font-size: 5rem;
+}
+
+/* score container */
+.score-container, .display {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+
+  /* border: thin solid yellowgreen; */
+}
+.score-computer, .score-player {
+  margin: 0 1.5rem;
+  padding: 0 1.5rem;
+}
+
+
+
+/* btn styling */
+.btn {
+  background-color: #ddddddbe;
+  font-size: 1.3rem;
+  padding: 2rem 3rem;
+  margin: 2rem;
+  border: thin solid transparent;
+}
+.btn:hover, .btn:focus {
+  box-shadow: 0 0 0 .25em; 
+}
